@@ -77,4 +77,14 @@ def local_alignment(string1, string2, penalty, score):
             final_score += score[alig_a[letter]][alig_b[letter]]
                 
     return final_score, highest_score, alig_a, alig_b
-    ```
+```
+
+**Example**\
+*Input:*\
+PRTEIN\
+AKIN\
+-1\
+BLOSUM62 scoring matrix
+
+*Output:*\
+11, 11, 'EIN', 'KIN'

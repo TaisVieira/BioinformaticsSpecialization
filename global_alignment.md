@@ -51,7 +51,7 @@ def global_alignment(string1, string2, penalty, score):
     return final_score, alig_a, alig_b
 ```
 
-**Example**
+**Example**\
 *Input:*\
 PRTEIN\
 AKIN\

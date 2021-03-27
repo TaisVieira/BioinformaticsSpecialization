@@ -5,6 +5,7 @@
 This code returns the min number of coins necessary to reach an amount of money given the types of coins available  (non-exhaustive result)
 
 ```python
+def dpchange(money, coins):
     num_coins = len(coins)
     max_coin = max(coins)
     min_num_coins = {0:0}

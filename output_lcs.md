@@ -59,7 +59,8 @@ def lcs_backtrack(v, w):
 
 **Examples**
 
-```backtrack``` function\
+```backtrack``` function
+
 *Input:*\
 PRTEIN\
 AKIN
@@ -90,7 +91,9 @@ AKIN
  (6, 3): '↓',
  (6, 4): '↘'}
  
- ```output_lcs``` function\
+ 
+ ```output_lcs``` function
+ 
  *Input:*\
  ```lcs_backtrack("PRTEIN", "AKIN"), "PRTEIN", 6, 4```
  

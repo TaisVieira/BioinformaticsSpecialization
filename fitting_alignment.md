@@ -1,6 +1,6 @@
 # Course 3 in the Bioinformatics Specialization: Comparing Genes, Proteins and Genomes
 
-**Week 2 - Global Alignment**
+**Week 2 - Fitting Alignment**
 
 This function finds a substring of ```string 1``` that has the best alignment with the whole of ```string 2``` using a ```premium``` variable for matches and a ```penalty``` variable for mismatches and indels.
 

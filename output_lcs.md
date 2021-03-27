@@ -95,7 +95,10 @@ AKIN
  ```output_lcs``` function
  
  *Input:*\
- ```lcs_backtrack("PRTEIN", "AKIN"), "PRTEIN", 6, 4```
+ ```lcs_backtrack("PRTEIN", "AKIN")```\
+ "PRTEIN"\
+ 6\
+ 4
  
  *Output:*\
  IN

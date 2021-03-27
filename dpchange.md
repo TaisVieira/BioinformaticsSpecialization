@@ -33,4 +33,13 @@ def dpchange(money, coins):
                         coins_list[m].append(coin)
             
     return min_num_coins[money], coins_list[money]
- ```
+```
+
+**Example**
+
+*Input:*\
+8074\
+[24,13,12,7,5,3,1]
+
+*Output:*\
+338

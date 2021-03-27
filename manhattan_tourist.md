@@ -58,4 +58,12 @@ def manhattan_tourist(n, m, down, right):
             s_dic[(i,j)] = max(s_dic[(i-1,j)]+down[i-1][j], s_dic[(i,j-1)] + right[i][j-1])
     
     return s_dic[(n,m)]
- ```
+```
+
+**Example**
+
+*Input:*\
+```matrix.txt``` showcased above
+
+*Output:* \
+56

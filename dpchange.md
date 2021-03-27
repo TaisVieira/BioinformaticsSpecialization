@@ -1,10 +1,10 @@
-# Course 3 in the Bioinformatics Specialization:
-# Comparing Genes, Proteins and Genomes
+# Course 3 in the Bioinformatics Specialization: Comparing Genes, Proteins and Genomes
 
-# Week 1 - dpchange 
+**Week 1 - dpchange**
 
-# This code returns the min number of coins necessary to reach an amount of money given the types of coins available  (non-exhaustive result)
+This code returns the min number of coins necessary to reach an amount of money given the types of coins available  (non-exhaustive result)
 
+```python
     num_coins = len(coins)
     max_coin = max(coins)
     min_num_coins = {0:0}
@@ -32,3 +32,4 @@
                         coins_list[m].append(coin)
             
     return min_num_coins[money], coins_list[money]
+ ```

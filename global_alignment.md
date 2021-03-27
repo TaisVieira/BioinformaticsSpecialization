@@ -49,3 +49,14 @@ def global_alignment(string1, string2, penalty, score):
              final_score +=  d
      
     return final_score, alig_a, alig_b
+```
+
+**Example**
+*Input:*\
+PRTEIN\
+AKIN\
+-1\
+BLOSUM62 scoring matrix
+
+*Output:*\
+9, 'PRTEIN', '--AKIN'

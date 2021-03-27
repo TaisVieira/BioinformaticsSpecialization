@@ -7,7 +7,7 @@ This code is divided in two parts. First, the backtrack function. Given two stri
 ```python
 def lcs_backtrack(v, w):
     s = {(0,0):0}
-    backtrack = {(0,0):0}
+    backtrack = {}
     
     for i in range(len(v)+1):
         s[(i,0)] = 0               # adds 0 to all Column 0
@@ -56,7 +56,49 @@ def lcs_backtrack(v, w):
         
     return lcs_print
  ```
+
+**Examples**
+
+```backtrack``` function\
+*Input:*\
+PRTEIN\
+AKIN
+
+*Output:*\
+{(1, 1): '↓',
+ (1, 2): '↓',
+ (1, 3): '↓',
+ (1, 4): '↓',\
+ (2, 1): '↓',
+ (2, 2): '↓',
+ (2, 3): '↓',
+ (2, 4): '↓',\
+ (3, 1): '↓',
+ (3, 2): '↓',
+ (3, 3): '↓',
+ (3, 4): '↓',\
+ (4, 1): '↓',
+ (4, 2): '↓',
+ (4, 3): '↓',
+ (4, 4): '↓',\
+ (5, 1): '↓',
+ (5, 2): '↓',
+ (5, 3): '↘',
+ (5, 4): '→',\
+ (6, 1): '↓',
+ (6, 2): '↓',
+ (6, 3): '↓',
+ (6, 4): '↘'}
  
+ ```output_lcs``` function\
+ *Input:*\
+ ```lcs_backtrack("PRTEIN", "AKIN"), "PRTEIN", 6, 4```
+ 
+ *Output:*\
+ IN
+ 
+
+
  
  
  

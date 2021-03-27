@@ -59,7 +59,7 @@ def lcs_backtrack(v, w):
 
 **Examples**
 
-```backtrack``` function
+```lcs_backtrack``` function
 
 *Input:*\
 PRTEIN\

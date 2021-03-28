@@ -29,6 +29,7 @@ def local_alignment(string1, string2, penalty, score):
             delete = score_matrix[(a-1,b)] + d
             insert = score_matrix[(a,b-1)] + d
             score_matrix[(a,b)] = max(0, match, insert, delete)      # based on the scoring matrix provided, fills the score_matrix with maximum value between match, mismatch and indel penalty
+            
             if score_matrix[(a,b)] > highest_score:                  # keeps the biggest score found, this will be the starting point for backtracking
                 highest_score = score_matrix[(a,b)]
                 location = (a,b)

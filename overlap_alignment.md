@@ -95,7 +95,7 @@ def overlap_alignment(string1, string2, premium, penalty):
 **Example**\
 *Input:*\
 PRTEINS\
-FEING
+FEING\
 1\
 -1
 

@@ -33,6 +33,7 @@ def local_alignment(string1, string2, penalty, score):
             if score_matrix[(a,b)] > highest_score:                  # keeps the biggest score found, this will be the starting point for backtracking
                 highest_score = score_matrix[(a,b)]
                 location = (a,b)
+            
             if score_matrix[(a,b)] == 0:                             # fills backtrack matrix based on score_matrix
                 backtrack[(a,b)] = "s"
             elif score_matrix[(a,b)] == delete:

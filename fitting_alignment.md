@@ -38,7 +38,7 @@ def fitting_alignment(string1, string2, premium, penalty):
                 mismatch = score_matrix[(a-1, b-1)] + penalty
             delete = score_matrix[(a-1,b)] + penalty
             insert = score_matrix[(a,b-1)] + penalty
-            score_matrix[(a,b)] = max(match, mismatch, insert, delete)      # creates backtrack matrix based highest scores from score_matrix
+            score_matrix[(a,b)] = max(match, mismatch, insert, delete)      # creates backtrack matrix based on highest scores from score_matrix
             if score_matrix[(a,b)] == delete:
                 backtrack[(a,b)] = "d"
             elif score_matrix[(a,b)] == insert:
